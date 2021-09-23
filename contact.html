@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Belle Fleur">
+    <meta name="description" content="ベルフルール花屋">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belle Fleur Flora Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    </head>
+  <body>
+  <!--/ヘッダー-->
+<header>
+  <h1>
+<a href="index.html"><img src="images/logo.png" alt="ベルフルール花屋のロゴ">
+  </a></h1>
+  <div id="head_content">
+  <ul>
+    <li><a href="contact.html"><img src="images/contact.png" alt="お問い合わせ">
+        </a></li>
+    <li><a href="tel:123-456-7890"><img src="images/telephone.png" alt="買い物かご">
+        </a></li>
+    <li><a href="index.html"><img src="images/home.png" alt="ホームページ">
+          </a></li>
+  </ul>
+  </div>
+<nav id="global_navi">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="weddings.html">WEDDINGS</a></li>
+        <li><a href="gifts.html">GIFTS</a></li>
+        <li><a href="map.html">MAP</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+
+    <!--/メインビジュアル画像-->
+    <!--wrapper-->
+ <div id="wrapper">
+   <!--メイン-->
+   <div id="main">
+     <div id="child_navi">
+      <ol>
+        <li><a href="index.html">HOME</a></li>
+        <li>CONTACT</li>
+      </ol>
+    </div><br>
+       <h2>お問い合わせ</h2>
+       <section>
+         <p>下記の項目にご入力のうえ、「送信する」ボタンを押してください。</p>
+         <p>「<span class="must">*</span>」は必須項目です。</p><br>
+         <section>
+           <div class="container">
+        <form action="contact_thanks.html" id="entry">
+
+     <label>お名前 <span class="must">*</span></label>
+     <input type="text" id="name" name="name" required>
+
+    <label>お名前（フリガナ) <span class="must">*</span></label>
+     <input type="text" id="name" name="name" required>
+
+     <label>お電話番号<span class="must">*</span></label>
+     <input type="text" id="name" name="name" required>
+
+     <label>メールアドレス <span class="must">*</span></label>
+     <input type="text" id="email" name="email" required>
+
+     <label>お問い合わせの種類</label><br>
+    <select id="entry_list">
+      <option value="商品に関するお問い合わせ">商品に関するお問い合わせ</option>
+      <option value="営業">営業</option>
+      <option value="採用">採用</option>
+      <option value="その他のお問い合わせ">その他のお問い合わせ</option>
+     </select>
+
+      <p><input type="submit" id="entrylist_submitbutton" value="送信する"></p>
+
+   </form>
+</div>
+         </section>
+       </article>
+     </div>
+     <!--/メイン-->
+ <div id="page_top"><a href="#"></a></div>
+
+        <!--サイド-->
+        <aside id="sidebar">
+          <section id="side_banner">
+
+            <ul>
+              <li><a href="sale.html" target="_blank"><img src="images/banner4.png" alt="セール"></a></li>
+              <li><a href="recurit.html" target="_blank"><img src="images/banner5.png" alt="採用"></a></li>
+              <li><a href="https://www.instagram.com/" target="_blank"><img src="images/banner2.png" alt=""></a></li>
+              <li><a href="https://www.facebook.com/" target="_blank"><img src="images/banner3.png" alt=""></a></li>
+              <li><a href="#" target="_blank"><img src="images/banner1.png" alt="ベルフルールブログ"></a></li>
+
+            </ul>
+          </section>
+          <section id="side_contact">
+            <h3>メルマガの登録はこちら</h3>
+
+            <input type="email" id="email" name="email">
+            <a href="subscribe_thanks.html"><input type="button" id="submit_button" value="登録"></a>
+          </section>
+        </aside>
+        <!--/サイド-->
+      </div>
+      <!--/wrapper-->
+
+
+
+    <!--フッター-->
+ <footer>
+   <div id="footer_navi">
+     <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="weddings.html">WEDDINGS</a></li>
+       <li><a href="gifts.html">GIFTS</a></li>
+       <li><a href="map.html">MAP</a></li>
+       <li><a href="contact.html">CONTACT</a></li>
+       <li><a href="privacypolicy.html">PRIVACY POLICY</a></li>
+     </ul>
+   </div>
+   <small>Copyright &copy; 2021 Blle Fleur. All rights reserved.</small>
+ </footer>
+ <!--/フッター-->
+</body>
+</html>
